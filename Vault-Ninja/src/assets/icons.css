@@ -1,0 +1,64 @@
+.AddIcon{
+    fill: rgb(149, 149, 149);
+    height: 20px;
+    width: 20px;
+    transition: 300ms ease-in-out;
+    border-radius: 3em;
+    padding: 0.8em;
+}
+
+.AddIcon:hover{
+    fill: rgba(1, 148, 228, 0.801);
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    border-radius: 3em;
+}
+
+.HubIcon{
+    fill: rgb(149, 149, 149);
+    height: 20px;
+    width: 20px;
+    transition: 300ms ease-in-out;
+    padding: 0.8em;
+    border-radius: 3em;
+}
+
+.HubIcon:hover{
+    fill: rgba(1, 148, 228, 0.801);
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.StackedView{
+    fill: rgb(149, 149, 149);
+    height: 20px;
+    width: 20px;
+    transition: 300ms ease-in-out;
+    padding: 0.8em;
+    border-radius: 3em;
+}
+
+.StackedView:hover{
+    fill: rgba(1, 148, 228, 0.801);
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.Settings{
+    fill: rgb(149, 149, 149);
+    height: 20px;
+    width: 20px;
+    transition: 300ms ease-in-out;
+    padding: 0.8em;
+    border-radius: 3em;
+}
+
+.Settings:hover{
+    fill: rgba(1, 148, 228, 0.801);
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+}
