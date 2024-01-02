@@ -1,45 +1,43 @@
 .SideBar {
   position: absolute;
-  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.768);
   padding: 1em;
-  border-radius: 4em;
+  border-radius: 5em;
   z-index: 999;
   top: 50%;
-  left: 5.5%;
+  margin: 0 4em;
   transform: translate(-50%, -50%);
-  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.098));
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.125));
+  backdrop-filter: blur(10px);
 }
 
 .userBgm{
   padding: 1em;
-  border: 1px solid rgb(224, 224, 224);
-  border-radius: 3em;
+  border-radius: 5em;
 }
 .userAvatar{
   background-color: rgb(232, 232, 232);
-  padding: 2em;
-  border-radius: 3em;
+  padding: 2.5em;
+  border-radius: 5em;
 }
 
 
 .UserNickName{
-  padding: 0 1em 0 1em;
+  padding: 1em;
   border-radius: 2em;
   display: flex;
   gap: 4px;
   justify-content: center;
 }
 .UserName{
-  color: rgba(1, 148, 228, 0.801);
-  filter: drop-shadow(0 0 0.75rem rgba(1, 166, 255, 0.622));
-  
+  color: rgb(0, 195, 255);
 }
 
 .InteractiveButtons{
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 1em 1em 1em;
+  padding: 0.5em 1em 1em 1em;
   flex-direction: column;
-  gap: 1px;
+  gap: 10px;
 }

@@ -1,7 +1,10 @@
 
+@import url(./reset.css);
 @import url(./sideBar.css);
 @import url(./icons.css);
-
+@import url(./SearchBar.css);
+@import url(./maxCaracteres.css);
+@import url(./PasswordSection.css);
 @font-face {
   font-family: 'Inter';
   src: url('/Vault-Ninja/Font/Inter-VariableFont_slnt\,wght.ttf') format('woff');
@@ -26,13 +29,7 @@ p{
 }
 
 body {
-  width: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
-  line-height: 2;
+ 
   font-family: 'Inter', sans-serif;
 
   font-size: 15px;
@@ -40,4 +37,5 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(255, 255, 255);
+  display: none;
 }

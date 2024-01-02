@@ -1,0 +1,49 @@
+.SearchBarElement {
+    position: fixed;
+    top: 0;
+    margin-top: 5em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.SearchBar {
+    padding: 1.5em;
+    border: none;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.098));
+    border-radius: 3em;
+    width: 600px;
+    outline: none;
+    color: rgb(184, 184, 184);
+}
+
+.SearchDropDownList {
+    color: rgb(134, 134, 134);
+    position: fixed;
+    top: 95%;
+    max-height: 0;
+    overflow: hidden;
+    width: 600px;
+    padding: 1em;
+    margin: 1em 1em;
+    border-radius: 1.5em;
+    z-index: 999;
+    filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.098));
+    background-color: rgba(255, 255, 255, 0.794);
+    transition: max-height 0.3s ease;
+    opacity: 0%;
+    transition: 400ms ease-in-out;
+    backdrop-filter: blur(6px);
+}
+
+.SearchDropDownList.active {
+    max-height: 500px;
+}
+
+.DropDownListElements {
+    padding: 0 1em;
+}

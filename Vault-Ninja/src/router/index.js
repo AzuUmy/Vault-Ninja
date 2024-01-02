@@ -4,16 +4,12 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/Plus',
-      name: 'plus',
+      path: '/add',
+      name: 'add',
 
-      //component: () => import('../views/CreatSecureAccount.vue') import the route of the element to the rourter
+      component: () => import('../views/creat-Password.vue')
 
-    },
-    {
-      path: '/Key',
-      name: 'key',
-    },
+    }
   ]
 })
 

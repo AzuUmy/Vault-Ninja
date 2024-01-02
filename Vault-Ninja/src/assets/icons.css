@@ -1,64 +1,75 @@
 .AddIcon{
     fill: rgb(149, 149, 149);
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     transition: 300ms ease-in-out;
     border-radius: 3em;
     padding: 0.8em;
 }
 
 .AddIcon:hover{
-    fill: rgba(1, 148, 228, 0.801);
-    height: 35px;
-    width: 35px;
+    fill: rgb(0, 195, 255);
+    height: 20px;
+    width: 20px;
     cursor: pointer;
     border-radius: 3em;
 }
 
 .HubIcon{
     fill: rgb(149, 149, 149);
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     transition: 300ms ease-in-out;
     padding: 0.8em;
+    
     border-radius: 3em;
 }
 
 .HubIcon:hover{
-    fill: rgba(1, 148, 228, 0.801);
-    height: 35px;
-    width: 35px;
+    fill: rgb(0, 195, 255);
+    height: 20px;
+    width: 20px;
     cursor: pointer;
 }
 
 .StackedView{
     fill: rgb(149, 149, 149);
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     transition: 300ms ease-in-out;
     padding: 0.8em;
     border-radius: 3em;
 }
 
 .StackedView:hover{
-    fill: rgba(1, 148, 228, 0.801);
-    height: 35px;
-    width: 35px;
+    fill: rgb(0, 195, 255);
+    height: 20px;
+    width: 20px;
     cursor: pointer;
 }
 
 .Settings{
     fill: rgb(149, 149, 149);
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     transition: 300ms ease-in-out;
     padding: 0.8em;
     border-radius: 3em;
 }
 
 .Settings:hover{
-    fill: rgba(1, 148, 228, 0.801);
-    height: 35px;
-    width: 35px;
+    fill: rgb(0, 195, 255);
+    height: 20px;
+    width: 20px;
     cursor: pointer;
 }
+
+
+.SliderIcon{
+    fill:rgb(170, 170, 170);
+    height: 25px;
+    width: 25px;
+    margin-bottom: 1em;
+    margin-left: 0;
+}
+

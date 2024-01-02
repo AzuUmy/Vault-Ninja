@@ -2,9 +2,11 @@
 <script>
 
 import sideBarView from './views/side-Bar-View.vue'
+import searchBarView from './views/Search-bar.vue'
 export default {
   components: {
     sideBarView,
+    searchBarView,
   },
 };
 </script>
@@ -16,6 +18,7 @@ export default {
     </header>
 
     <main>
+      <searchBarView></searchBarView>
       <router-view />
     </main>
 
