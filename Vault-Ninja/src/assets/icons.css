@@ -73,3 +73,15 @@
     margin-left: 0;
 }
 
+.Transmission{
+    fill:rgb(170, 170, 170);
+    height: 25px;
+    width: 25px;
+    margin-left: 0;
+    transition: 300ms ease-in-out;
+}
+
+.Transmission:hover{
+    fill: rgb(0, 195, 255);
+    cursor: pointer;
+}

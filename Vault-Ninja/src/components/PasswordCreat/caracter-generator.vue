@@ -95,7 +95,8 @@
         // Update 'number' in the Vuex store
         this.$store.commit('setNumber', this.sliderValue);
       },
-  
+
+     
       mounted() {
         this.updateNumber();
       },

@@ -60,20 +60,22 @@
         } else {
           this.DotBackground[dotIndex] = activeColor;
           if (dotIndex === 0) {
-        updatedOptions.uperCase = true;
+              updatedOptions.uperCase = true;
+              //console.log('uperCase added', updatedOptions.uperCase);
             } else if (dotIndex === 1) {
               updatedOptions.specialCharacters = true;
+             // console.log('special characteres added', updatedOptions.specialCharacters);
             } else if (dotIndex === 2) {
               updatedOptions.Number = true;
+             // console.log('number added', updatedOptions.Number);
             } else if (dotIndex === 3) {
               updatedOptions.lowerCase = true;
+             // console.log('lowerCase added', updatedOptions.lowerCase);
                }
-         
- 
         }
 
         this.setOptions(updatedOptions);
-        console.log('Options after toggle:', this.options);
+        //console.log('Options after toggle:', this.options);
       },
     },
   };
